@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.545ec298.css",
+    "main.js": "/static/js/main.7ac341b8.js",
+    "static/media/Peyton_Kellner.pdf": "/static/media/Peyton_Kellner.4383d9d8e0609afb1668.pdf",
+    "static/media/poppins-devanagari-400-normal.woff": "/static/media/poppins-devanagari-400-normal.0e11b62db931f85340d4.woff",
+    "static/media/poppins-devanagari-600-normal.woff": "/static/media/poppins-devanagari-600-normal.ae9c1f88ace17d23e8e6.woff",
+    "static/media/poppins-devanagari-400-normal.woff2": "/static/media/poppins-devanagari-400-normal.64d5f06ee726edd58ca3.woff2",
+    "static/media/poppins-devanagari-600-normal.woff2": "/static/media/poppins-devanagari-600-normal.3343afa6b8c01e48a23b.woff2",
+    "static/media/Headshot.jpeg": "/static/media/Headshot.5a0d9fde29f7882989e8.jpeg",
+    "static/media/poppins-latin-600-normal.woff": "/static/media/poppins-latin-600-normal.70e04c856f46aa529052.woff",
+    "static/media/poppins-latin-400-normal.woff": "/static/media/poppins-latin-400-normal.cda9c93f49237f11c766.woff",
+    "static/media/poppins-latin-600-normal.woff2": "/static/media/poppins-latin-600-normal.91145014c0350c248ed2.woff2",
+    "static/media/poppins-latin-400-normal.woff2": "/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
+    "static/media/poppins-latin-ext-400-normal.woff": "/static/media/poppins-latin-ext-400-normal.8cc52669c8e8a6735699.woff",
+    "static/media/poppins-latin-ext-600-normal.woff": "/static/media/poppins-latin-ext-600-normal.7d2be7f30f5bef3a1850.woff",
+    "static/media/poppins-latin-ext-400-normal.woff2": "/static/media/poppins-latin-ext-400-normal.4f38b4331448d2313adc.woff2",
+    "static/media/poppins-latin-ext-600-normal.woff2": "/static/media/poppins-latin-ext-600-normal.d08f0891e438248ce419.woff2",
+    "index.html": "/index.html",
+    "main.545ec298.css.map": "/static/css/main.545ec298.css.map",
+    "main.7ac341b8.js.map": "/static/js/main.7ac341b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.545ec298.css",
+    "static/js/main.7ac341b8.js"
+  ]
+}
