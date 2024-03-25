@@ -12,7 +12,7 @@ import Homepage from './routes/homepage';
 
 export function RootApp() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.REACT_APP_API_PATH}>
       <div className={styles.screen}>
         <div className={styles.navigation}>
           <NavBar />
