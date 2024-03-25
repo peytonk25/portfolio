@@ -1,0 +1,67 @@
+.background {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    column-gap: 3rem;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+
+    padding-top: 1rem;
+}
+
+.header {
+    font-family: Poppins;
+    font-weight: 600;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.iconE {
+    grid-row: 1/2;
+
+    max-width: fit-content;
+    max-height: fit-content;
+    font-size: 3rem;
+    cursor: pointer;
+    color: black;
+}
+
+.iconL {
+    grid-row: 1/2;
+
+    max-width: fit-content;
+    max-height: fit-content;
+    font-size: 3rem;
+    cursor: pointer;
+    color: rgb(0,119,181);
+}
+
+.iconG {
+    grid-row: 1/2;
+
+    max-width: fit-content;
+    max-height: fit-content;
+    font-size: 3rem;
+    cursor: pointer;
+    color: black;
+}
+
+.iconE:hover {
+    transform: scale(1.05);
+}
+.iconL:hover {
+    transform: scale(1.05);
+}
+.iconG:hover {
+    transform: scale(1.05);
+}

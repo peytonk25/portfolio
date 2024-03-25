@@ -1,0 +1,88 @@
+.container {
+    width: 100%;
+    
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 15px, rgba(0,0,0,0.5) 0px 1px 15px;
+    background-color: rgb(58, 57, 57);
+    padding-bottom: 1rem;
+}
+
+.Name {
+    justify-self: center;
+    
+    color: rgb(100, 149, 237);
+    font-weight: 700;
+    font-family: Poppins;
+    font-size: 2rem;
+
+    text-shadow: 0 0 20px black;
+}
+
+
+
+.header_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+   
+    width: 100%;
+    padding-top: 1rem;
+    align-items: center;
+}
+
+.headerA {
+    justify-self: center;
+    grid-column: 9/10;
+    color: rgb(100, 149, 237);
+    text-shadow: 0 0 30px rgb(150, 149, 149);
+    font-weight: 400;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.headerP {
+    grid-column: 9/10;
+    justify-self: center;
+    color: rgb(100, 149, 237);
+    font-weight: 400;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.headerR {
+    grid-column: 10/11;
+    justify-self: center;
+    color: rgb(100, 149, 237);
+    font-weight: 400;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.headerC {
+    grid-column: 11/12;
+    justify-self: center;
+    color: rgb(100, 149, 237);
+    font-weight: 400;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-right: 3rem;
+}
+
+.headerA:hover {
+    transform: scale(1.05);
+}
+
+.headerC:hover {
+    transform: scale(1.05);
+}
+
+.headerR:hover {
+    transform: scale(1.05);
+}
+
+.headerP:hover {
+    transform: scale(1.05);
+}
