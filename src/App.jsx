@@ -12,7 +12,7 @@ import Homepage from './routes/homepage';
 
 export function RootApp() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className={styles.screen}>
         <div className={styles.navigation}>
           <NavBar />
