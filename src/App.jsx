@@ -12,18 +12,17 @@ import Homepage from './routes/homepage';
 
 export function RootApp() {
   return (
-    <Router basename="https://peytonk25.github.io/portfolio/">
       <div className={styles.screen}>
         <div className={styles.navigation}>
           <NavBar />
         </div>
         <div className={styles.main_page}>
-        <Routes>
-          <Route path='/' element={<Homepage/>} />
-        </Routes>
+        
+          <Homepage />
+        
         </div>
       </div>
-    </Router>
+    
     
   );
 }
