@@ -4,6 +4,7 @@
     justify-self: center;
     border: 1px solid black;
     border-radius: 10px;
+    box-shadow: black 0px 0px 40px 2px;
 }
 
 .container {

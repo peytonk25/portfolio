@@ -4,7 +4,6 @@
     padding-top: 1rem;
     display: flex;
     justify-content: center;
-    
 }
 
 .text_container {
@@ -14,6 +13,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 .icon {
@@ -34,6 +35,8 @@
     width: 100%;
     justify-content: flex-start;
     word-wrap: break-word;
+    text-shadow: 0px 0px 30px rgb(155, 155, 155);
+    color: white;
     
 
 }
@@ -47,6 +50,8 @@
     display: flex;
     width: 100%;
     justify-content: flex-start;
+    color: white;
+    text-shadow: 0px 0px 30px rgb(155, 155, 155);
 
 }
 
@@ -90,6 +95,6 @@
     height: auto;
     border-radius: 100%;
     
-    border: 1px solid black;
-    box-shadow: rgba(0,0,0,0.118) 0px 1px 15px, rgba(0,0,0,0.118) 0px 1px 15px;
+    border: .5px solid black;
+    box-shadow: rgb(155, 155, 155) 0px 0px 20px 5px;
 }
