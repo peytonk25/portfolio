@@ -17,10 +17,11 @@ export default class Contact extends React.Component {
                     </div>
             <div id="contact" className={styles.container}>
                     
-                    <FontAwesomeIcon icon={faEnvelope} className={styles.iconE} onClick={() => window.location = 'mailto:peytonk25@gmail.com'}/>
-                    
+                    <a className={styles.iconE}>
+                    <FontAwesomeIcon icon={faEnvelope} onClick={() => window.location = 'mailto:peytonk25@gmail.com'}/>
+                    </a>
                     <a href="https://www.linkedin.com/in/peyton-kellner/" target="_blank" rel="noreferrer" className={styles.iconL}>
-                        <FontAwesomeIcon icon={faLinkedin}/>
+                        <FontAwesomeIcon icon={faLinkedin} />
                     </a>
 
                     <a href="https://github.com/peytonk25" target="_blank" rel="noreferrer" className={styles.iconG}>
