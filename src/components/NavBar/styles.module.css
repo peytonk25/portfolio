@@ -7,6 +7,108 @@
     position: fixed;
 }
 
+.container_mobile {
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: rgba(255, 255, 255, 0.5) 0px 0px 40px 3px;
+    background-color: rgb(48, 47, 47);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    position: fixed;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    max-height: 3rem;
+}
+
+.Name_mobile {
+    
+    color: rgb(100, 149, 237);
+    font-weight: 700;
+    font-family: Poppins;
+    font-size: 2rem;
+    grid-column: 1/2;
+    text-shadow: 0 0 20px black;
+    margin-left: 2rem;
+}
+
+.Bars {
+    color: rgb(100, 149, 237);
+    max-width: fit-content;
+    max-height: fit-content;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    justify-self: flex-end;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.Bars:hover {
+    transform: scale(1.05);
+}
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(48, 47, 47);
+    border-radius: 0px 0px 20px 20px;
+    flex-direction: column;
+    justify-self: flex-end;
+    grid-row: 2/3;
+    grid-column: 4/5;
+    padding: .5rem;
+
+}
+
+.headerA_mobile {
+    color: rgb(100, 149, 237);
+    font-weight: 400;
+    margin-top: .5rem;
+    font-family: Poppins;
+    font-size: .8rem;
+    cursor: pointer;
+    text-shadow: 0 0 20px black;
+}
+
+.headerA_mobile:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5)
+}
+
+.headerR_mobile {
+    color: rgb(100, 149, 237);
+    font-weight: 400;
+    font-family: Poppins;
+    font-size: .8rem;
+    cursor: pointer;
+    text-shadow: 0 0 20px black;
+}
+.headerR_mobile:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.headerC_mobile {
+    color: rgb(100, 149, 237);
+    font-weight: 400;
+    font-family: Poppins;
+    font-size: .8rem;
+    cursor: pointer;
+    text-shadow: 0 0 20px black;
+}
+.headerC_mobile:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5)
+}
+
 .Name {
     justify-self: center;
     
@@ -37,6 +139,7 @@
     font-family: Poppins;
     font-size: 1.2rem;
     cursor: pointer;
+    text-shadow: 0 0 20px black;
 }
 
 .headerP {
@@ -47,6 +150,7 @@
     font-family: Poppins;
     font-size: 1.2rem;
     cursor: pointer;
+    text-shadow: 0 0 20px black;
 }
 
 .headerR {
@@ -57,6 +161,7 @@
     font-family: Poppins;
     font-size: 1.2rem;
     cursor: pointer;
+    text-shadow: 0 0 20px black;
 }
 
 .headerC {
@@ -68,20 +173,25 @@
     font-size: 1.2rem;
     cursor: pointer;
     margin-right: 3rem;
+    text-shadow: 0 0 20px black;
 }
 
 .headerA:hover {
     transform: scale(1.05);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5)
 }
 
 .headerC:hover {
     transform: scale(1.05);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5)
 }
 
 .headerR:hover {
     transform: scale(1.05);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5)
 }
 
 .headerP:hover {
     transform: scale(1.05);
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5)
 }

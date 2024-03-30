@@ -1,6 +1,6 @@
 import React from "react"
 
-import pdf from "../../Peyton_Kellner.pdf"
+import pdf from "../../Peyton_Kellner.pdf";
 
 import styles from "./styles.module.css"
 

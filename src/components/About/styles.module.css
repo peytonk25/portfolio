@@ -76,7 +76,6 @@
 .js {
     font-size: 3rem;
     color: rgb(240, 219, 79)
-
 }
 
 
@@ -97,4 +96,71 @@
     
     border: .5px solid black;
     box-shadow: rgb(155, 155, 155) 0px 0px 20px 5px;
+}
+
+@media screen and (max-width: 950px){
+    .container {
+        padding-top: 0rem;
+        height:70vh;
+    }
+    .photo {
+        max-width: 65%;
+    }
+    .bio {
+        padding: 0rem;
+        font-size: 1.2rem;
+    }
+    
+    .bio2 {
+        font-size: .8rem;
+    }
+
+    .html {
+        font-size: 2rem;
+    }
+    
+    .py {
+        font-size: 2rem;
+    }
+    
+    .react {
+        font-size: 2rem;
+    }
+    
+    .js {
+        font-size: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .container {
+        padding-top: 0rem;
+    }
+    .photo {
+        max-width: 70%;
+    }
+    .bio {
+        font-size: 1rem;
+    }
+    
+    .bio2 {
+        font-size: .6rem;
+    }
+
+    .html {
+        font-size: 1.4rem;
+    }
+    
+    .py {
+        font-size: 1.4rem;
+    }
+    
+    .react {
+        font-size: 1.4rem;
+    }
+    
+    .js {
+        font-size: 1.4rem;
+    }
 }

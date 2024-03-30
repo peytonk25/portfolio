@@ -6,9 +6,9 @@ import {
 } from 'react-router-dom';
 
 //NavBar
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar/index.tsx';
 //Pages
-import Homepage from './routes/homepage';
+import Homepage from './routes/homepage/index.jsx';
 
 export function RootApp() {
   return (
